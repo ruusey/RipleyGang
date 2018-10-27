@@ -18,7 +18,7 @@
     > li.nav-item {
        > a.nav-link,
       > a.nav-link:focus {
-        font-size: .9rem;
+        font-size: 1rem;
         font-weight: 700;
         text-transform: uppercase;
         color: $gray-900;
@@ -58,7 +58,9 @@
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
+      
       .navbar-brand {
+
         color: $primary;
         &:focus,
         &:hover {
